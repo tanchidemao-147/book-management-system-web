@@ -1,0 +1,75 @@
+.header_bar {
+    display: flex;
+    padding: 5px 0;
+
+    .header_bar_left {
+        flex-basis: 90%;
+
+        img {
+            border-radius: 5px;
+            margin-left: 15px;
+            width: 100px;
+            height: 30px;
+        }
+    }
+
+    .header_bar_right {
+        display: flex;
+        flex-basis: 10%;
+
+        .theme_but {
+            background-color: #9e8455;
+            padding: 3px 2px 0px 5px;
+        }
+
+        .theme_but2 {
+            background-color: #9e8455;
+            padding: 4px 3px 0px 3px;
+        }
+
+        img {
+            vertical-align: top;
+            width: 15px;
+            height: 15px;
+        }
+
+        .header_bar_theme {
+            padding-top: 5px;
+            margin: 0 5px;
+        }
+
+        .header_bar_icon {
+            padding-top: 8px;
+            margin: 0 10px;
+        }
+    }
+}
+
+.header_nav {
+    height: 40px;
+
+    .header_nav_menu {
+        line-height: 40px;
+    }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation: none;
+}
+
+// .dark::view-transition-old(root) {
+//     z-index: 1;
+// }
+
+// .dark::view-transition-new(root) {
+//     z-index: 999;
+// }
+
+// ::view-transition-old(root) {
+//     z-index: 999;
+// }
+
+// ::view-transition-new(root) {
+//     z-index: 1;
+// }

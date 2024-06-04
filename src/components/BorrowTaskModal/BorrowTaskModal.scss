@@ -1,0 +1,11 @@
+.list {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgba($color: #aaa, $alpha: .2);
+    padding: 10px;
+    color: #b69860;
+    border-radius: 10px;
+}
